@@ -1,0 +1,44 @@
+{
+    "quotes":[
+        {
+            "phrase": "Siempre codifica como si la persona que finalmente mantendrá tu código fuera un psicópata violento que sabe dónde vives.",
+            "author": "Martin Golding"
+        },
+        {
+            "phrase": "La mayoría de los buenos programadores programan, no porque esperan que se les pague o por adulación por parte del público, sino porque es divertido programar.",
+            "author": "Linus Torvalds"
+        },
+        {
+            "phrase": "Iterar es humano, recursivo divino.",
+            "author": "L. Peter Deutsch"
+        },
+        {
+            "phrase": "La mayoría de software de hoy en día es muy parecido a una pirámide egipcia, con millones de ladrillos puestos unos encima de otros, sin una estructura integral, hecha por la fuerza bruta y miles de esclavos.",
+            "author": "Alan Kay"
+        },
+        {
+            "phrase": "Medir los avances de programación por líneas de código es como medir el progreso de la construcción de aviones por peso.",
+            "author": "Bill Gates"
+        },
+        {
+            "phrase": "A veces vale la pena quedarse en la cama el lunes, en lugar de pasar el resto de la semana depurando el código del lunes.",
+            "author": "Christopher Thompson"
+        },
+        {
+            "phrase": "En teoría, la teoría y la práctica son los mismos. En la práctica, no es.",
+            "author": "Yoggi Berra"
+        },
+        {
+            "phrase": "Hablar es barato. Enséñame el código",
+            "author": "Linus Torvalds"
+        },
+        {
+            "phrase": "Python es una gota en el reemplazo de BASIC en el sentido de que Optimus Prime es una gota en el reemplazo de un camión.",
+            "author": "Cory Dodt"
+        },
+        {
+            "phrase": "No te preocupes si no funciona bien. Si todo lo que hizo lo hiciera, estarías sin trabajo.",
+            "author": "Mosher’s Law of Software Engineering"
+        }
+    ]
+}
