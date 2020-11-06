@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+$base-color: ("1":red,"2": blue, 3:green, 4:yellow, 5:orange);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+@each $i, $color in $base-color{
+    .color#{$i} {
+        background-color: $color;
+        .quoteBox {
+            width: 35em;
+            height: 15em;
+            border-radius: 1%;
+            display: flex;
+            flex-direction: column;
+            color: $color;
+            background-color: white;
+            .phraseText{
+                text-align: center;
+            }
+            .button {
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+}
+
+.title{
+    color: white;
+    margin-bottom: 2em;
+}
+

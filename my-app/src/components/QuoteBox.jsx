@@ -5,11 +5,13 @@ import TwitterButton from "./TwitterButton"
 import NextQuote from "./NextQuote"
 
 const QuoteBox = (props) => (
-    <div>
-        <PhraseComponent />
+    <div className={props.className}>
+        <PhraseComponent className={props.className.phraseText}/>
         <AuthorComponent />
-        <TwitterButton />
-        <NextQuote />
+        <div>
+            <TwitterButton />
+            <NextQuote />
+        </div> 
     </div>
 )
 

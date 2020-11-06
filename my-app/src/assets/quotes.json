@@ -40,5 +40,12 @@
             "phrase": "No te preocupes si no funciona bien. Si todo lo que hizo lo hiciera, estarías sin trabajo.",
             "author": "Mosher’s Law of Software Engineering"
         }
+    ],
+    "colors": [
+        "color1",
+        "color2",
+        "color3",
+        "color4",
+        "color5"
     ]
 }

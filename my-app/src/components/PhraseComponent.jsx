@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const PhraseComponent = ({quotes, posi}) => (
+const PhraseComponent = ({quotes, posi}, props) => (
 <h2>{quotes[posi].phrase}</h2>
 )
 

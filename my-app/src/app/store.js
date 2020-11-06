@@ -1,10 +1,12 @@
 import { createStore } from 'redux';
-import {quotes} from "../assets/quotes.json"
+import { quotes, colors } from "../assets/quotes.json"
 
 const initialState = {
     quotes: quotes,
     posi: 0,
-    twitterLink: ""
+    twitterLink: "",
+    colors: colors,
+    inde: 0
 }
 const NEXT = "NEXT"
 
@@ -12,8 +14,7 @@ const quoteReducer = (state = initialState, action) => {
     
     switch (action.type){
         case NEXT:
-            console.log(state.posi)
-            return {...state, posi: (Math.floor(Math.random()*10))}
+            return {...state, posi: (Math.floor(Math.random()*10)), inde: (Math.floor(Math.random()*5))}
         default:
             return state
     }
