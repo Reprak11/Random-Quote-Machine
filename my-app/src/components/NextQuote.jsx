@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 const NextQuote = ({nextQuote}) => (
-    <button onClick={nextQuote}>Next Quote</button>
+    <button className="buttonStyle" onClick={nextQuote}>Next Quote</button>
 )
 
 const mapDispatchToProps = dispatch => (

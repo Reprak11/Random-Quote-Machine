@@ -5,10 +5,10 @@ import TwitterButton from "./TwitterButton"
 import NextQuote from "./NextQuote"
 
 const QuoteBox = (props) => (
-    <div className={props.className}>
-        <PhraseComponent className={props.className.phraseText}/>
+    <div className="quoteBox">
+        <PhraseComponent />
         <AuthorComponent />
-        <div>
+        <div className="buttonsPlacement">
             <TwitterButton />
             <NextQuote />
         </div> 

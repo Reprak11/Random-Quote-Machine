@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-$base-color: ("1":red,"2": blue, 3:green, 4:yellow, 5:orange);
+$base-color: ("1":#E74C3C,"2": #5499C7, 3:#73C6B6 , 4:#F4D03F  , 5:#F5B041 );
 
 * {
     margin: 0;
@@ -21,19 +21,42 @@ html, body, main{
     .color#{$i} {
         background-color: $color;
         .quoteBox {
+            padding: 2em;
             width: 35em;
-            height: 15em;
+            height: auto;
             border-radius: 1%;
             display: flex;
             flex-direction: column;
             color: $color;
             background-color: white;
+            
             .phraseText{
                 text-align: center;
+                padding-bottom: 1em;
+                font-size: 30px;
             }
-            .button {
-                background-color: red;
-                color: white;
+            .authorText{
+                text-align: right;
+                padding-bottom: 1em;
+                font-size: 20px;
+            }
+            .buttonsPlacement{
+                padding: 1em 0;
+                display: flex;
+                justify-content: space-around;
+                .buttonStyle{
+                    text-decoration: none;
+                    background-color: $color;
+                    padding: 0.5em 0.6em;
+                    border-radius: 3px;
+                    border: $color;
+                    outline: none;
+                    color: white;
+                    font-size: 20px;
+                }
+                .buttonStyle:hover{
+                    opacity: 75%;
+                }
             }
         }
     }
@@ -41,6 +64,6 @@ html, body, main{
 
 .title{
     color: white;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 

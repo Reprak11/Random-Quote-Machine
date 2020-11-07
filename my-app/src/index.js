@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { Provider } from 'react-redux'
 import store from "./app/store"
+import { CSSTransition } from 'react-transition-group'
 
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>
-        <App />
+        <CSSTransition in={true} timeout={1000} classNames="fade" mountOnEnter>
+            <App />
+        </CSSTransition>
       </Provider>
   </React.StrictMode>,
   document.getElementById('root')

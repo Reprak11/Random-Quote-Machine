@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 const AuthorComponent = ({quotes,posi}) => (
-<p>- {quotes[posi].author}</p>
+<p className="authorText">- {quotes[posi].author}</p>
 )
 
 const mapStateToProps = state => ({

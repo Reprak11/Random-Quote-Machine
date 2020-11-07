@@ -24,12 +24,13 @@ html, body, main {
 }
 
 .color1 {
-  background-color: red;
+  background-color: #E74C3C;
 }
 
 .color1 .quoteBox {
+  padding: 2em;
   width: 35em;
-  height: 15em;
+  height: auto;
   border-radius: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,26 +39,54 @@ html, body, main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: red;
+  color: #E74C3C;
   background-color: white;
 }
 
 .color1 .quoteBox .phraseText {
   text-align: center;
+  padding-bottom: 1em;
+  font-size: 30px;
 }
 
-.color1 .quoteBox .button {
-  background-color: red;
+.color1 .quoteBox .authorText {
+  text-align: right;
+  padding-bottom: 1em;
+  font-size: 20px;
+}
+
+.color1 .quoteBox .buttonsPlacement {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.color1 .quoteBox .buttonsPlacement .buttonStyle {
+  text-decoration: none;
+  background-color: #E74C3C;
+  padding: 0.5em 0.6em;
+  border-radius: 3px;
+  border: #E74C3C;
+  outline: none;
   color: white;
+  font-size: 20px;
+}
+
+.color1 .quoteBox .buttonsPlacement .buttonStyle:hover {
+  opacity: 75%;
 }
 
 .color2 {
-  background-color: blue;
+  background-color: #5499C7;
 }
 
 .color2 .quoteBox {
+  padding: 2em;
   width: 35em;
-  height: 15em;
+  height: auto;
   border-radius: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,26 +95,54 @@ html, body, main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: blue;
+  color: #5499C7;
   background-color: white;
 }
 
 .color2 .quoteBox .phraseText {
   text-align: center;
+  padding-bottom: 1em;
+  font-size: 30px;
 }
 
-.color2 .quoteBox .button {
-  background-color: red;
+.color2 .quoteBox .authorText {
+  text-align: right;
+  padding-bottom: 1em;
+  font-size: 20px;
+}
+
+.color2 .quoteBox .buttonsPlacement {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.color2 .quoteBox .buttonsPlacement .buttonStyle {
+  text-decoration: none;
+  background-color: #5499C7;
+  padding: 0.5em 0.6em;
+  border-radius: 3px;
+  border: #5499C7;
+  outline: none;
   color: white;
+  font-size: 20px;
+}
+
+.color2 .quoteBox .buttonsPlacement .buttonStyle:hover {
+  opacity: 75%;
 }
 
 .color3 {
-  background-color: green;
+  background-color: #73C6B6;
 }
 
 .color3 .quoteBox {
+  padding: 2em;
   width: 35em;
-  height: 15em;
+  height: auto;
   border-radius: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,26 +151,54 @@ html, body, main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: green;
+  color: #73C6B6;
   background-color: white;
 }
 
 .color3 .quoteBox .phraseText {
   text-align: center;
+  padding-bottom: 1em;
+  font-size: 30px;
 }
 
-.color3 .quoteBox .button {
-  background-color: red;
+.color3 .quoteBox .authorText {
+  text-align: right;
+  padding-bottom: 1em;
+  font-size: 20px;
+}
+
+.color3 .quoteBox .buttonsPlacement {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.color3 .quoteBox .buttonsPlacement .buttonStyle {
+  text-decoration: none;
+  background-color: #73C6B6;
+  padding: 0.5em 0.6em;
+  border-radius: 3px;
+  border: #73C6B6;
+  outline: none;
   color: white;
+  font-size: 20px;
+}
+
+.color3 .quoteBox .buttonsPlacement .buttonStyle:hover {
+  opacity: 75%;
 }
 
 .color4 {
-  background-color: yellow;
+  background-color: #F4D03F;
 }
 
 .color4 .quoteBox {
+  padding: 2em;
   width: 35em;
-  height: 15em;
+  height: auto;
   border-radius: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,26 +207,54 @@ html, body, main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: yellow;
+  color: #F4D03F;
   background-color: white;
 }
 
 .color4 .quoteBox .phraseText {
   text-align: center;
+  padding-bottom: 1em;
+  font-size: 30px;
 }
 
-.color4 .quoteBox .button {
-  background-color: red;
+.color4 .quoteBox .authorText {
+  text-align: right;
+  padding-bottom: 1em;
+  font-size: 20px;
+}
+
+.color4 .quoteBox .buttonsPlacement {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.color4 .quoteBox .buttonsPlacement .buttonStyle {
+  text-decoration: none;
+  background-color: #F4D03F;
+  padding: 0.5em 0.6em;
+  border-radius: 3px;
+  border: #F4D03F;
+  outline: none;
   color: white;
+  font-size: 20px;
+}
+
+.color4 .quoteBox .buttonsPlacement .buttonStyle:hover {
+  opacity: 75%;
 }
 
 .color5 {
-  background-color: orange;
+  background-color: #F5B041;
 }
 
 .color5 .quoteBox {
+  padding: 2em;
   width: 35em;
-  height: 15em;
+  height: auto;
   border-radius: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,21 +263,48 @@ html, body, main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: orange;
+  color: #F5B041;
   background-color: white;
 }
 
 .color5 .quoteBox .phraseText {
   text-align: center;
+  padding-bottom: 1em;
+  font-size: 30px;
 }
 
-.color5 .quoteBox .button {
-  background-color: red;
+.color5 .quoteBox .authorText {
+  text-align: right;
+  padding-bottom: 1em;
+  font-size: 20px;
+}
+
+.color5 .quoteBox .buttonsPlacement {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.color5 .quoteBox .buttonsPlacement .buttonStyle {
+  text-decoration: none;
+  background-color: #F5B041;
+  padding: 0.5em 0.6em;
+  border-radius: 3px;
+  border: #F5B041;
+  outline: none;
   color: white;
+  font-size: 20px;
+}
+
+.color5 .quoteBox .buttonsPlacement .buttonStyle:hover {
+  opacity: 75%;
 }
 
 .title {
   color: white;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 /*# sourceMappingURL=App.css.map */

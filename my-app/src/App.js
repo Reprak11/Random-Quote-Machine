@@ -7,8 +7,8 @@ import "./App.css"
 
 const App = ({ colors, inde }) => (
     <main className={colors[inde]}>
-      <Title className="title" />
-      <QuoteBox className="quoteBox phraseText"/>
+      <Title />
+      <QuoteBox />
     </main>
 )
 

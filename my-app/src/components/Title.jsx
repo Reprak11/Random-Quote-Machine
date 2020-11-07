@@ -1,7 +1,9 @@
 import React from 'react'
 
-const Title = (props) => (
-    <h1 className={props.className}>Random Quote Machine</h1>
+const Title = () => (
+    <div>
+        <h1 className="title">Random Quote Machine</h1>
+    </div>
 )
 
 export default Title
