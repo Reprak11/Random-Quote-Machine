@@ -4,10 +4,12 @@ import AuthorComponent from "./AuthorComponent"
 import TwitterButton from "./TwitterButton"
 import NextQuote from "./NextQuote"
 
+
 const QuoteBox = (props) => (
+    
     <div className="quoteBox">
-        <PhraseComponent />
-        <AuthorComponent />
+            <PhraseComponent  />
+            <AuthorComponent />
         <div className="buttonsPlacement">
             <TwitterButton />
             <NextQuote />

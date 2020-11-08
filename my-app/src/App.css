@@ -307,4 +307,37 @@ html, body, main {
   color: white;
   margin-bottom: 1.5em;
 }
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  -webkit-transition: opacity 100ms linear;
+  transition: opacity 100ms linear;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 200ms linear 200ms;
+  transition: opacity 200ms linear 200ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  display: none;
+}
+
+.fade-exit-done {
+  opacity: 0;
+}
 /*# sourceMappingURL=App.css.map */

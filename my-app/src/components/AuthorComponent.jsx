@@ -1,8 +1,14 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const AuthorComponent = ({quotes,posi}) => (
-<p className="authorText">- {quotes[posi].author}</p>
+<TransitionGroup>
+    <CSSTransition key={quotes[posi].author}  timeout={700} classNames="fade">
+        <p className="authorText">- {quotes[posi].author}</p>
+    </CSSTransition>
+</TransitionGroup>
+
 )
 
 const mapStateToProps = state => ({
