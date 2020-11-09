@@ -25,6 +25,8 @@ html, body, main {
 
 .color1 {
   background-color: #E74C3C;
+  -webkit-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .color1 .quoteBox {
@@ -41,6 +43,8 @@ html, body, main {
           flex-direction: column;
   color: #E74C3C;
   background-color: white;
+  -webkit-box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .color1 .quoteBox .phraseText {
@@ -81,6 +85,8 @@ html, body, main {
 
 .color2 {
   background-color: #5499C7;
+  -webkit-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .color2 .quoteBox {
@@ -97,6 +103,8 @@ html, body, main {
           flex-direction: column;
   color: #5499C7;
   background-color: white;
+  -webkit-box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .color2 .quoteBox .phraseText {
@@ -137,6 +145,8 @@ html, body, main {
 
 .color3 {
   background-color: #73C6B6;
+  -webkit-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .color3 .quoteBox {
@@ -153,6 +163,8 @@ html, body, main {
           flex-direction: column;
   color: #73C6B6;
   background-color: white;
+  -webkit-box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .color3 .quoteBox .phraseText {
@@ -193,6 +205,8 @@ html, body, main {
 
 .color4 {
   background-color: #F4D03F;
+  -webkit-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .color4 .quoteBox {
@@ -209,6 +223,8 @@ html, body, main {
           flex-direction: column;
   color: #F4D03F;
   background-color: white;
+  -webkit-box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .color4 .quoteBox .phraseText {
@@ -249,6 +265,8 @@ html, body, main {
 
 .color5 {
   background-color: #F5B041;
+  -webkit-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .color5 .quoteBox {
@@ -265,6 +283,8 @@ html, body, main {
           flex-direction: column;
   color: #F5B041;
   background-color: white;
+  -webkit-box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 9px 8px 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .color5 .quoteBox .phraseText {
@@ -324,8 +344,8 @@ html, body, main {
 
 .fade-enter.fade-enter-active {
   opacity: 1;
-  -webkit-transition: opacity 200ms linear 200ms;
-  transition: opacity 200ms linear 200ms;
+  -webkit-transition: opacity 300ms linear 150ms;
+  transition: opacity 300ms linear 150ms;
 }
 
 .fade-exit {
