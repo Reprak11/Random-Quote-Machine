@@ -1,5 +1,5 @@
 import React from 'react';
-import { Provider, connect } from 'react-redux'
+import { connect } from 'react-redux'
 import Title from "./components/Title"
 import QuoteBox from "./components/QuoteBox"
 import "./App.css"
